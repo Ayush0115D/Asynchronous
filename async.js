@@ -16,7 +16,6 @@ function calculator(a,b,sumCallback){
     sumCallback(a,b);
 }
 calculator(1,2,sum); // ()na lgate sum k sath nhi toh pura fucn pass ho jayega
-//
 function getData(dataId,getNextData){
     return new Promise((resolve,reject)=>{
     //2s
